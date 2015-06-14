@@ -1,4 +1,5 @@
 import requests
 
-html_file = requests.get('http://google.com')
-print(html_file.text)
+json_file = requests.get('http://connpass.com/api/v1/event/?keyword=python')
+print(json_file.text)
+
